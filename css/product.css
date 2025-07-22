@@ -1,10 +1,11 @@
 *{
     box-sizing: border-box;
-    color: #333;;
+   
 }
 
 a{
     text-decoration: none;
+    color: rgba(33, 37, 41, 1);
 }
 img{
     width: 100%;
@@ -14,7 +15,7 @@ img{
     display: flex;
 }
 
-.body{
+body{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.8px;
@@ -71,6 +72,14 @@ img{
     padding-bottom: 7px;
 }
 
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.6px;
+
+}
+
 h3{
     font-size: 28px;
     font-weight: 700;
@@ -96,6 +105,13 @@ h6{
 }
 
 .lebel-md{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.8px;
+}
+
+.paragragh-md{
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
@@ -152,6 +168,9 @@ h6{
     width: 33.3%;
 }
 
+.col-25{
+    width: 23.5%;
+}
 
 .text-section{
     display: flex;
@@ -202,8 +221,53 @@ h6{
     margin-top: 48px;
 }
 
+.button-secondary{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 23px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(33, 37, 41, 1);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(33, 37, 41, 1) ;
+
+}
+
+.button-secondary:hover{
+    background-color: rgba(33, 37, 41, 1);
+    color: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(33, 37, 41, 1) ;
+}
+
+.button-secondary:active{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 23px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(33, 37, 41, 1);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(33, 37, 41, 1) ;
+
+}
+
+
 .button-primary{
-    margin-left: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 12px 24px;
     background-color: rgba(33, 37, 41, 1);
     color: #fff;
